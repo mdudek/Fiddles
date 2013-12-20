@@ -27,8 +27,10 @@ html {
 .checkbox label {
   display: inline-block;
   cursor: pointer;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 40px;
   min-height: 24px;
+  line-height: 24px;
+  margin: 0 0 0 -24px;
 }
 .checkbox label:after {
   content: '';
@@ -60,7 +62,7 @@ html {
   -webkit-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
-  top: -3px;
+  top: 0px;
   left: 0px;
 }
 .checkbox label:hover::after {
