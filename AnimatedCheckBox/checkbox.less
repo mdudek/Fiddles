@@ -1,0 +1,59 @@
+@import "../shared/less/global.less";
+
+body, html {
+  padding: 20px;
+  margin: 0;
+  font-family: Segoe UI;
+  background: #3e3e3e;
+  color: rgb(255,255,255);
+}
+
+
+/* ANIMATED CHECKBOX */
+.checkbox {
+  margin: 20px auto;
+  position: relative;
+  min-height: 24px;
+
+}
+
+.checkbox input {
+  visibility: hidden;
+}
+
+.checkbox label {
+  display: inline-block;
+  cursor: pointer;
+  padding:0 0 0 15px;
+  min-height: 24px;
+
+}
+
+.checkbox label:after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(255,255,255,0.5);
+  .Transition(-webkit-transform @defaultAnimationEasing 0.5s);
+  .Transition(-moz-transform @defaultAnimationEasing 0.5s);
+  .Transition(-o-transform @defaultAnimationEasing 0.5s);
+  .Transition(transform @defaultAnimationEasing 0.5s);
+
+  .Transform(rotate3d(1, 1, 0, 180deg));
+  .BoxSizing(border-box);
+  top: -3px;
+  left: 0px;
+}
+
+.checkbox label:hover::after {
+  background-color: fade(@green, 20%);
+}
+
+.checkbox input[type=checkbox]:checked + label:after {
+  background: @green url('img/checked.svg') center center no-repeat;
+  .BackgroundSize(12px);
+  border-width: 0px;
+  .Transform(rotate3d(0, 0, 0, 0deg));
+
+}

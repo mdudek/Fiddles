@@ -1,0 +1,207 @@
+// LESS variables
+@green : #50ae47;
+@blue : #417EB3;
+@orange : #F8B133;
+@purple: #813589;
+@gray: #808080;
+@darkerGray: #4b4b4b;
+@darkGray: #3b3b3b;
+@veryDarkGray: #2b2b2b;
+@lightGray: #d0d0d0;
+@red : #B20505;
+@lightGreen: #6fd365;
+@lightnessGreen : #B5D895;
+
+@textBoxBorderColor: #9e9e9e;
+
+@textColor: #c0c0c0;
+
+
+@maxPageWidth: 1200px;
+@viewPadding: 40px;
+
+
+@light:300;
+@normal:400;
+@bold:700;
+
+@defaultAnimationEasing:cubic-bezier(0.250, 0.460, 0.450, 0.940);
+
+@defaultAnimation:all @defaultAnimationEasing 0.5s;
+
+@currentVersion: '?v1';
+
+// IE8 uses \0
+@ie8: \0screen;
+
+// Smartphones & Tablets (landscape) & Splitted Desktops ---
+@fullPageWidth: ~"only screen and (max-width: @{maxPageWidth})";
+// Smartphones & Tablets (landscape) & Splitted Desktops ---
+@tabletsAndSmallDesktops : ~"only screen and (max-width: 1000px)";
+// Smartphones & Tablets (portrait) & Tiny Desktops --------
+@smartphonesAndTablets : ~"only screen and (max-width: 800px)";
+// Smartphones (landscape) & Old Tablets (Portrait) --------
+@smartphonesAndOldTablets : ~"only screen and (max-width: 640px)";
+// Smartphones (portrait) & Old SP (landscape) -------------
+@smartphones : ~"only screen and (max-width: 480px)";
+// Old Smartphones (e.g. portrait) ------------------------
+@oldSmartphones : ~"only screen and (max-width: 320px)";
+
+// gridiculous layout
+@gridiculousWidth : ~"only screen and (max-width: 960px)";
+
+// LESS Mixins
+.DefaultFontFamilies() {
+  font-family : 'Open Sans', sans-serif;
+}
+
+.DefaultFontSize() {
+  font-size: 1em;
+}
+
+.DefaultFontWeight() {
+  font-weight: @normal;
+}
+
+.DefaultTextColor() {
+  color:#000000;
+}
+
+.DefaultTextInverseColor() {
+  color:#ffffff;
+}
+
+.DefaultBackgroundColor() {
+  background-color:#ffffff;
+}
+
+
+.DefaultFont() {
+  .DefaultFontFamilies;
+  .DefaultFontSize;
+  .DefaultFontWeight;
+}
+
+.Animation(@arguments) {
+  -webkit-animation: @arguments;
+  -moz-animation: @arguments;
+  -o-animation: @arguments;
+  animation: @arguments;
+}
+
+.AnimationPlayState(@state) {
+  -moz-animation-play-state: @state;
+  -o-animation-play-state: @state;
+  -webkit-animation-play-state: @state;
+  animation-play-state: @state;
+}
+
+.AnimationDuration(@duration) {
+  -moz-animation-duration: @duration;
+  -o-animation-duration: @duration;
+  -webkit-animation-duration: @duration;
+  animation-duration: @duration;
+}
+
+
+.BorderRadius(@radius) {
+  -moz-border-radius: @radius;
+  -o-border-radius: @radius;
+  -webkit-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.BackgroundSize(@size) {
+  -moz-background-size : @size;
+  -o-background-size : @size;
+  -webkit-background-size : @size;
+  background-size : @size;
+}
+
+.BoxSizing(@sizing) {
+  -moz-box-sizing: @sizing;
+  -webkit-box-sizing: @sizing;
+  -o-box-sizing: @sizing;
+  box-sizing: @sizing;
+}
+
+.BoxShadow(@shadow) {
+  -moz-box-shadow: @shadow;
+  -webkit-box-shadow: @shadow;
+  -o-box-shadow: @shadow;
+  box-shadow: @shadow;
+}
+
+.Transition(@arguments) {
+  -webkit-transition:@arguments;
+  -moz-transition:@arguments;
+  -o-transition:@arguments;
+  transition:@arguments;
+}
+
+.TransitionDelay(@arguments) {
+  -webkit-transition-delay:@arguments;
+  -moz-transition-delay:@arguments;
+  -o-transition-delay:@arguments;
+  transition-delay:@arguments;
+}
+
+.Transform(@arguments) {
+  -webkit-transform:@arguments;
+  -moz-transform:@arguments;
+  -o-transform:@arguments;
+  transform:@arguments;
+}
+
+.TransformOrigin(@arguments) {
+  -webkit-transform-origin:@arguments;
+  -moz-transform-origin:@arguments;
+  -o-transform-origin:@arguments;
+  transform-origin:@arguments;
+}
+
+.TransformStyle(@arguments) {
+  -webkit-transform-style:@arguments;
+  -moz-transform-style:@arguments;
+  -o-transform-style:@arguments;
+  transform-style:@arguments;
+}
+
+.BackgroundGradients(@gradients) {
+  @gradientRewrite1: ~`@{gradients}.replace(/\$/g, '-webkit-')`;
+  background-image: @gradientRewrite1;
+  @gradientRewrite2: ~`@{gradients}.replace(/\$/g, '-moz-')`;
+  background-image: @gradientRewrite2;
+  @gradientRewrite3: ~`@{gradients}.replace(/\$/g, '-ms-')`;
+  background-image: @gradientRewrite3;
+  @gradientRewrite4: ~`@{gradients}.replace(/\$/g, '-o-')`;
+  background-image: @gradientRewrite4;
+  @gradientRewrite5: ~`@{gradients}.replace(/\$/g, '')`;
+  background-image: @gradientRewrite5;
+}
+
+
+.LinearGradient(@arguments) {
+  background-image: -webkit-linear-gradient(@arguments);
+  background-image: -moz-linear-gradient(@arguments);
+  background-image: -ms-linear-gradient(@arguments);
+  background-image: -o-linear-gradient(@arguments);
+  background-image: linear-gradient(@arguments);
+}
+
+.Selection(@value) {
+  -webkit-user-select: @value;
+  -moz-user-select: @value;
+  -khtml-user-select: @value;
+  -ms-user-select: @value;
+}
+
+.dragItem {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

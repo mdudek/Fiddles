@@ -1,0 +1,80 @@
+.dragItem {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body,
+html {
+  padding: 20px;
+  margin: 0;
+  font-family: Segoe UI;
+  background: #3e3e3e;
+  color: #ffffff;
+}
+/* ANIMATED CHECKBOX */
+.checkbox {
+  margin: 20px auto;
+  position: relative;
+  min-height: 24px;
+}
+.checkbox input {
+  visibility: hidden;
+}
+.checkbox label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 0 0 15px;
+  min-height: 24px;
+}
+.checkbox label:after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-transition: -webkit-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -moz-transition: -webkit-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -o-transition: -webkit-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  transition: -webkit-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -webkit-transition: -moz-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -moz-transition: -moz-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -o-transition: -moz-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  transition: -moz-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -webkit-transition: -o-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -moz-transition: -o-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -o-transition: -o-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  transition: -o-transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -webkit-transition: transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -moz-transition: transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -o-transition: transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  transition: transform cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+  -webkit-transform: rotate3d(1, 1, 0, 180deg);
+  -moz-transform: rotate3d(1, 1, 0, 180deg);
+  -o-transform: rotate3d(1, 1, 0, 180deg);
+  transform: rotate3d(1, 1, 0, 180deg);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  top: -3px;
+  left: 0px;
+}
+.checkbox label:hover::after {
+  background-color: rgba(80, 174, 71, 0.2);
+}
+.checkbox input[type=checkbox]:checked + label:after {
+  background: #50ae47 url('img/checked.svg') center center no-repeat;
+  -moz-background-size: 12px;
+  -o-background-size: 12px;
+  -webkit-background-size: 12px;
+  background-size: 12px;
+  border-width: 0px;
+  -webkit-transform: rotate3d(0, 0, 0, 0deg);
+  -moz-transform: rotate3d(0, 0, 0, 0deg);
+  -o-transform: rotate3d(0, 0, 0, 0deg);
+  transform: rotate3d(0, 0, 0, 0deg);
+}
