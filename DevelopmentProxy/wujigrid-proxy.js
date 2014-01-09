@@ -22,7 +22,7 @@ var https = require('https'),
         '192.168.137.211': 'FH_PHONE_SGNote3',
         '192.168.137.212': 'MD_PHONE_SGS3',
         '192.168.137.213': 'OC_TABLET_APPLE_IPAD',
-        '192.168.137.214': 'MD_TABLET_ACER_ANDROID'
+        '192.168.137.204': 'MD_TABLET_ACER_ANDROID'
     },
     proxyMappings = JSON.parse(fs.readFileSync(path.join(__dirname, 'proxymappings.json'))),
     uaparser = new UAParser(),
@@ -30,7 +30,7 @@ var https = require('https'),
     adminPagePort = 80,
     _proxyTmpPort = 3000;
 
-require('longjohn');
+//require('longjohn');
 
 
 var getDeviceInfo = function (req) {
@@ -118,7 +118,7 @@ https.createServer(
     function (req, res) {
         var target = getTargetHost(req);
         if (checkControlDomain(req, res, 'http://' + target.host)) {
-            console.log('Request from (' + getDeviceInfo(req) + ') IP: ' + req.connection.remoteAddress + ' for:' + req.url + ' redirected to target host:' + target.url);
+            console.log('Request from (' + getDeviceInfo(req) + ') IP: ' + req.connection.remoteAddress + ' for:' + target.host + req.url + ' redirected to target host:' + target.url);
 
             req.headers.host = target.host;
             var targetUrl = 'https://' + target.url;
@@ -214,6 +214,12 @@ http.createServer(function (req, res) {
     }
 
 }).listen(adminPagePort);
+
+// handle ECONNRESET errors - TODO fix it correctly
+process.on('uncaughtException', function (err) {
+    console.error(err.stack);
+    console.log("Node NOT Exiting...");
+});
 
 
 util.puts('https proxy server'.blue + ' started '.green.bold + 'on port '.blue + proxyPort.toString().yellow);
