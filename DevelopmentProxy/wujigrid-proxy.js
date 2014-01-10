@@ -57,6 +57,15 @@ var saveMappings = function () {
     fs.writeFileSync(path.join(__dirname, 'proxymappings.json'), JSON.stringify(proxyMappings));
 };
 
+var getDynamicClientId = function (req) {
+    var remoteIP = req.connection.remoteAddress;
+    return '#' + remoteIP + ' (' + getDeviceInfo(req) + ')';
+};
+
+var isDynamicClientId = function (clientId) {
+    return clientId[0] == '#';
+}
+
 var getTargetHost = function (req) {
     var requestedHost = req.headers.host;
     var portIndex = requestedHost.indexOf(':');
@@ -69,6 +78,16 @@ var getTargetHost = function (req) {
     var remoteIP = req.connection.remoteAddress;
     var clientId = clientIP[remoteIP];
     if (clientId) {
+        if (isDynamicClientId(clientId)) {
+            // its device with dynamic IP addres -> update device info
+            var currentClientId = getDynamicClientId(req);
+            if (clientId != currentClientId) {
+                console.log('Updated clientId (' + currentClientId + ') for IP address ' + remoteIP);
+                delete proxyMappings[clientId];
+                clientIP[remoteIP] = currentClientId;
+                clientId = currentClientId;
+            }
+        }
         var serverId = proxyMappings[clientId];
         if (serverId) {
             var targetIP = serverIP[serverId];
@@ -86,13 +105,13 @@ var getTargetHost = function (req) {
             var targetServerName = getDefaultTargetName();
             proxyMappings[clientId] = targetServerName;
             console.log('Set proxy mapping for ' + clientId + ' -> ' + targetServerName + '(' + serverIP[targetServerName] + ')');
-            saveMappings();
+            //saveMappings();
         }
     }
     else {
         targetUrl = getDefaultTargetHost();
         console.log('Unknown client IP: ' + remoteIP + '. Using default target server:' + targetUrl);
-        clientIP[remoteIP] = '#' + remoteIP + ' (' + getDeviceInfo(req) + ')';
+        clientIP[remoteIP] = getDynamicClientId(req);
     }
     var result = {
         host: requestedHost.substring(0, rootDomainIndex) + '.dev',
@@ -146,7 +165,7 @@ var writePageContent = function (req, res) {
 
     for (var client in proxyMappings) {
         res.write('<div>');
-        res.write('<div class="clientID' + (client[0] == '#' ? ' temp' : '') + '">' + client + '</div>');
+        res.write('<div class="clientID' + (isDynamicClientId(client) ? ' temp' : '') + '">' + client + '</div>');
         //res.write('<div class="serverID">' + proxyMappings[client] + '</div>');
         var options = '';
         for (var serverName in serverIP) {
@@ -174,7 +193,7 @@ var checkControlDomain = function (req, res, redirectUrl) {
         }
         proxyMappings[clientId] = firstDomainPart;
         console.log('Set proxy mapping for ' + clientId + ' -> ' + firstDomainPart + '(' + serverIP[firstDomainPart] + ')');
-        saveMappings();
+        //saveMappings();
         res.writeHead(302, {
             'Location': redirectUrl
         });
@@ -201,7 +220,7 @@ http.createServer(function (req, res) {
         });
         req.on('end', function () {
             proxyMappings = querystring.parse(chunk);
-            saveMappings();
+            //saveMappings();
             writePageContent(req, res);
             res.end();
         });
