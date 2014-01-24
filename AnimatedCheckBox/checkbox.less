@@ -1,5 +1,6 @@
-@import "../shared/less/global.less";
+@import "../Shared/less/lesshat-prefixed.less";
 
+@green : #50ae47;
 body, html {
   padding: 20px;
   margin: 0;
@@ -8,8 +9,28 @@ body, html {
   color: rgb(255,255,255);
 }
 
-
 /* ANIMATED CHECKBOX */
+
+//.lh-keyframes(~'animCheckBoxChecked, 0%{transform: rotate3d(1, 1, 0, 0); } 100%{ transform: rotate3d(1, 1, 0, 180deg); background: url(\'img/checked.svg\') center center no-repeat; }');
+@-webkit-keyframes animCheckBoxChecked{
+  0%{
+    -webkit-transform: rotate3d(1, 1, 0, 0);
+    border: 1px solid rgba(255,255,255,0.5);
+    background:transparent;
+  }
+  50%{
+    -webkit-transform: rotate3d(1, 1, 0, 90deg);
+    border: 1px solid rgba(255,255,255,0.5);
+    background:transparent;
+  }
+  100%{
+    -webkit-transform: rotate3d(1, 1, 0, 0deg);
+    background: @green url('img/checked.svg') center center no-repeat;
+    .lh-background-size(12px 12px);
+
+  }
+}
+
 .checkbox {
   margin: 20px auto;
   position: relative;
@@ -38,13 +59,7 @@ body, html {
   width: 24px;
   height: 24px;
   border: 1px solid rgba(255,255,255,0.5);
-  .Transition(-webkit-transform @defaultAnimationEasing 0.5s);
-  .Transition(-moz-transform @defaultAnimationEasing 0.5s);
-  .Transition(-o-transform @defaultAnimationEasing 0.5s);
-  .Transition(transform @defaultAnimationEasing 0.5s);
-
-  .Transform(rotate3d(1, 1, 0, 180deg));
-  .BoxSizing(border-box);
+  .lh-box-sizing(border-box);
   top: 0px;
   left: 0px;
 }
@@ -54,9 +69,9 @@ body, html {
 }
 
 .checkbox input[type=checkbox]:checked + label:after {
-  background: @green url('img/checked.svg') center center no-repeat;
-  .BackgroundSize(12px);
+  //background: @green url('img/checked.svg') center center no-repeat;
   border-width: 0px;
-  .Transform(rotate3d(0, 0, 0, 0deg));
-
+  .lh-animation-name(animCheckBoxChecked);
+  .lh-animation-duration(1s);
+  .lh-animation-fill-mode(forwards);
 }

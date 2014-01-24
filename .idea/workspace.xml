@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0835778-bdf0-4f35-a3a1-8c3ac1cc1c42" name="Default" comment="Fixed checkbox styles&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shared/less/lesshat-prefixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shared/less/lesshat-prefixed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/michael.xml" />
+      <change type="DELETED" beforePath="C:\sources\git\Fiddles\Shared\less\global.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\git\Fiddles\Shared\less\global.less" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimatedCheckBox/checkbox.css" afterPath="$PROJECT_DIR$/AnimatedCheckBox/checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimatedCheckBox/checkbox.less" afterPath="$PROJECT_DIR$/AnimatedCheckBox/checkbox.less" />
+    </list>
+    <ignored path="Fiddles.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Fiddles" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="checkbox.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="34" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkbox.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="35" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1411">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wujigrid-proxy.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DevelopmentProxy/wujigrid-proxy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="48" selection-start="2251" selection-end="2251" vertical-scroll-proportion="0.35075495" vertical-offset="956" max-vertical-offset="4267">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uninstall-proxy-svc.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DevelopmentProxy/uninstall-proxy-svc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="30" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install-proxy-svc.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DevelopmentProxy/install-proxy-svc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkbox.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="3" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1360">
+              <folding>
+                <marker date="1389264172591" expanded="true" signature="174:690" placeholder="..." />
+                <marker date="1389264172591" expanded="true" signature="181:308" placeholder="{...}" />
+                <marker date="1389264172591" expanded="true" signature="315:446" placeholder="{...}" />
+                <marker date="1389264172591" expanded="true" signature="454:688" placeholder="{...}" />
+                <marker date="1389264172591" expanded="true" signature="1347:1811" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesshat-prefixed.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shared/less/lesshat-prefixed.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48042">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/AnimatedCheckBox/checkbox.html" />
+        <option value="$PROJECT_DIR$/Shared/less/global.less" />
+        <option value="$PROJECT_DIR$/Shared/less/lesshat-prefixed.less" />
+        <option value="$PROJECT_DIR$/AnimatedCheckBox/checkbox.css" />
+        <option value="$PROJECT_DIR$/AnimatedCheckBox/checkbox.less" />
+        <option value="$PROJECT_DIR$/DevelopmentProxy/install-proxy-svc.js" />
+        <option value="$PROJECT_DIR$/DevelopmentProxy/uninstall-proxy-svc.js" />
+        <option value="$PROJECT_DIR$/DevelopmentProxy/helloworld.js" />
+        <option value="$PROJECT_DIR$/DevelopmentProxy/wujigrid-proxy.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevelopmentProxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevelopmentProxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevelopmentProxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="certs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimatedCheckBox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fiddles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimatedCheckBox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="settings" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../html5" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sources\git\Fiddles\DevelopmentProxy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.Development proxy">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AnimatedCheckBox" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:63342/Fiddles/AnimatedCheckBox/checkbox.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Development proxy" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="wujigrid-proxy.js" working-dir="$PROJECT_DIR$/DevelopmentProxy">
+      <browser start="false" url="" with-js-debugger="false" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.AnimatedCheckBox" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Development proxy" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0835778-bdf0-4f35-a3a1-8c3ac1cc1c42" name="Default" comment="" />
+      <created>1387522949545</created>
+      <updated>1387522949545</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial version">
+      <created>1387524429903</created>
+      <updated>1387524429903</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed checkbox styles">
+      <created>1387524903818</created>
+      <updated>1387524903818</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed checkbox styles&#10;">
+      <created>1389111042432</created>
+      <updated>1389111042432</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed checkbox styles&#10;">
+      <created>1389194378556</created>
+      <updated>1389194378556</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated SSL certificate  + fixes&#10;">
+      <created>1389269305252</created>
+      <updated>1389269305252</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated development proxy">
+      <created>1389369167800</created>
+      <updated>1389369167800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32815966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Initial version" />
+    <MESSAGE value="Fixed checkbox styles" />
+    <MESSAGE value="Fixed checkbox styles&#10;" />
+    <MESSAGE value="Updated SSL certificate  + fixes&#10;" />
+    <MESSAGE value="Updated development proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated development proxy" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="35" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/wujigrid-proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="22" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="3944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/uninstall-proxy-svc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/install-proxy-svc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1360">
+          <folding>
+            <marker date="1389264172591" expanded="true" signature="174:690" placeholder="..." />
+            <marker date="1389264172591" expanded="true" signature="181:308" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="315:446" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="454:688" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="1347:1811" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/less/lesshat-prefixed.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="35" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/wujigrid-proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="22" selection-start="7395" selection-end="7395" vertical-scroll-proportion="0.0" vertical-offset="3081" max-vertical-offset="3944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/uninstall-proxy-svc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/install-proxy-svc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1360">
+          <folding>
+            <marker date="1389264172591" expanded="true" signature="174:690" placeholder="..." />
+            <marker date="1389264172591" expanded="true" signature="181:308" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="315:446" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="454:688" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="1347:1811" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/less/lesshat-prefixed.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="35" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/wujigrid-proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="21" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3842">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/uninstall-proxy-svc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/install-proxy-svc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1360">
+          <folding>
+            <marker date="1389264172591" expanded="true" signature="174:690" placeholder="..." />
+            <marker date="1389264172591" expanded="true" signature="181:308" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="315:446" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="454:688" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="1347:1811" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/less/lesshat-prefixed.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="35" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1360">
+          <folding>
+            <marker date="1389264172591" expanded="true" signature="174:690" placeholder="..." />
+            <marker date="1389264172591" expanded="true" signature="181:308" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="315:446" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="454:688" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="1347:1811" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/less/lesshat-prefixed.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="35" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1360">
+          <folding>
+            <marker date="1389264172591" expanded="true" signature="174:690" placeholder="..." />
+            <marker date="1389264172591" expanded="true" signature="181:308" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="315:446" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="454:688" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="1347:1811" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/less/lesshat-prefixed.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="35" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1360">
+          <folding>
+            <marker date="1389264172591" expanded="true" signature="174:690" placeholder="..." />
+            <marker date="1389264172591" expanded="true" signature="181:308" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="315:446" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="454:688" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="1347:1811" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/less/lesshat-prefixed.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/less/lesshat-prefixed.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1360">
+          <folding>
+            <marker date="1389264172591" expanded="true" signature="174:690" placeholder="..." />
+            <marker date="1389264172591" expanded="true" signature="181:308" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="315:446" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="454:688" placeholder="{...}" />
+            <marker date="1389264172591" expanded="true" signature="1347:1811" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedCheckBox/checkbox.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="35" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/install-proxy-svc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/uninstall-proxy-svc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DevelopmentProxy/wujigrid-proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="48" selection-start="2251" selection-end="2251" vertical-scroll-proportion="0.35075495" vertical-offset="956" max-vertical-offset="4267">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
