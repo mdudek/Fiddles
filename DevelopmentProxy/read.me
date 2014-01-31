@@ -1,0 +1,10 @@
+- development proxy is running on AD server
+- admin page is accessible on http://www.wujigrid.dev or http://192.168.137.171
+- proxy is using SSL certificate for *.wujigrid.dev (splitting of pfx into cer/key is described here: http://www.markbrilman.nl/2011/08/howto-convert-a-pfx-to-a-seperate-key-crt-file/
+
+openssl pkcs12 -in [yourfile.pfx] -nocerts -out [keyfile-encrypted.key]
+openssl pkcs12 -in [yourfile.pfx] -clcerts -nokeys -out [certificate.crt]
+openssl rsa -in [keyfile-encrypted.key] -out [keyfile-decrypted.key]
+
+
+- you can select target server using http[s]://[servername].wujigrid.dev where servername is OC/FH/MD/YH
